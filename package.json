@@ -1,5 +1,5 @@
 {
-  "name": "appium-uiautomator2-driver",
+  "name": "termux-appium",
   "description": "Run Appium On Termux Android Directly",
   "keywords": [
     "termux",
@@ -9,7 +9,7 @@
   ],
   "version": "1.0.0",
   "author": "GoodGuySoftware",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/goodguysoftware/termux-appium.git"
