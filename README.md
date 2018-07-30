@@ -1,8 +1,14 @@
 # Termux-Appium
-Run Appium On Termux Android Directly
+Run Appium On Termux Android Directly. Now you don't need PC to run appium script, lets check this magic!
 
 # Usage
 ## Installation
+### Install termux for android on Play Store
+    https://play.google.com/store/apps/details?id=com.termux
+### From termux on android install Node and NPM
+    pkg install nodejs
+    pkg install npm
+### Install termux-appium package:
     npm install termux-appium
 ## Start server:
     const { startServer } = require('termux-appium');
