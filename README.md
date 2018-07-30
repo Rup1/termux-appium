@@ -2,6 +2,8 @@
 Run Appium On Termux Android Directly
 
 # Usage
+## Installation
+    npm install termux-appium
 ## Start server:
     const { startServer } = require('termux-appium');
     const DEFAULT_HOST = "localhost";
