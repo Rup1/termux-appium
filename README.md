@@ -19,8 +19,10 @@ Run Appium On Termux Android Directly. Now you don't need PC to run appium scrip
     })();
     
 ## start your test:
+    //install wd: npm install wd
+    
     const wd = require('wd');
-
+    
     var browser = wd.promiseChainRemote({
         host: 'localhost',
         port: 4884
