@@ -7,19 +7,19 @@ Run Appium On Termux Android Directly. Now you don't need PC to run appium scrip
     https://play.google.com/store/apps/details?id=com.termux
 ### From termux on android install Node and NPM
     pkg install nodejs
-    pkg install npm
 ### Install termux-appium package:
     npm install termux-appium
-## Start server:
+
+## start your test:
+    // !!!Important Note: you need to turn OFF and ON adb debug on android if you have connected with pc before
+    //install wd: npm install wd
+    
     const { startServer } = require('termux-appium');
     const DEFAULT_HOST = "localhost";
     const DEFAULT_PORT = 4884;
     (async function main () {
       return await startServer(DEFAULT_PORT, DEFAULT_HOST);
     })();
-    
-## start your test:
-    //install wd: npm install wd
     
     const wd = require('wd');
     
