@@ -20,7 +20,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "prepublish": "rimraf build && gulp prepublish",
+    "prepare": "rimraf build && gulp prepublish",
     "transpile": "gulp transpile",
     "clean": "rm -rf node_modules && rm package-lock.json && npm install",
     "build": "gulp transpile",
